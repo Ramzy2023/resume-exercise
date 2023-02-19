@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background:#ffe4c4c7;
+    background-position: center;
+    background-image: url('../img/pic2.jpg');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 500px 100vh;
+    
+}
+
+.myPic{
+    padding: 20px;
+   
+
+}
+.myPic img{
+    width: 250px;
+    height: 250px;
+    padding: 0;
+    border: 5px solid black;
+}
+
+.myName{
+    padding: 20px;
+    max-width: 500px;
+    background-color: #ffe4c4c7;
+    
+
+}
+
+hr.dLine {
+    height:6px;
+    border-top:2px solid rgb(114, 105, 105);
+    border-bottom:2px solid rgb(114, 105, 105);
+    max-width: 100%;
+    
+}
+
+.objective,.skills,.education,.experience{
+    padding: 20px;
+    max-width: 850px;
+    background-color: #ffe4c4c7;
+    border-bottom: 2px solid black;
+}
